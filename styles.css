@@ -1,0 +1,19 @@
+.background-image-container {
+    display: flex;
+    background-image: url(images_gifs/young-black-man-working-use-footage-081951102_iconl.webp);
+    background-size: cover; /* Makes sure the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: black; /* Sets the text color to white for contrast */
+    text-align: center; /* Centers the text */
+    height:600px;
+}
+/* Target the <p> tag with both classes */
+.background-image-container .lead.text-Black {
+    margin-top: 180px; /* Adjust top margin to move the text down */
+    color: black; /* Sets text color to black */
+    font-size: 1.25rem; /* Example: Adjust font size as needed */
+    text-align: center; /* Center text horizontally */
+    justify-content: center;
+}
+
