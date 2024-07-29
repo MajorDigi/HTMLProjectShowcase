@@ -1,6 +1,6 @@
 # SBA_307_website
 Website Goals and Objectives
-Purpose: What is the primary goal of the website? Is it to showcase the project, provide updates, or offer resources?
+Purpose: What is the primary goal of the website? Is it to showcase the project, provide an outline of and demonstration of the project, and ask for feedback/suggestions?
 Target Audience: Instructors and possibly classmates.
 # My Website Project
 

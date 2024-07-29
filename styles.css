@@ -1,19 +1,62 @@
 .background-image-container {
     display: flex;
     background-image: url(images_gifs/young-black-man-working-use-footage-081951102_iconl.webp);
-    background-size: cover; /* Makes sure the image covers the entire container */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    color: black; /* Sets the text color to white for contrast */
-    text-align: center; /* Centers the text */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: black; 
+    text-align: center; 
     height:600px;
 }
 /* Target the <p> tag with both classes */
 .background-image-container .lead.text-Black {
-    margin-top: 180px; /* Adjust top margin to move the text down */
-    color: black; /* Sets text color to black */
-    font-size: 1.25rem; /* Example: Adjust font size as needed */
-    text-align: center; /* Center text horizontally */
+    margin-top: 180px; 
+    color: black; 
+    font-size: 1.25rem; 
+    text-align: center; 
     justify-content: center;
 }
 
+/* Overview Section */
+.overview {
+    background-color: skyblue; 
+}
+
+/* Key Features Section */
+
+
+.feature {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Project Timeline Section */
+.timeline {
+    background-color:lavenderblush; 
+}
+
+.table thead {
+    background-color: #f8f9fa; 
+}
+/* Background GIF Animation */
+.background-gif {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images_gifs/giphy.gif');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.2; 
+}
+
+/* Feedback Box Hover Effect */
+.feedback-box {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.feedback-box:hover {
+    background-color: #f0f8ff; 
+}
