@@ -1,0 +1,30 @@
+# Node modules (if you ever use npm or any package manager in the future)
+node_modules/
+
+# VS Code-specific files
+.vscode/
+
+# Windows system files
+Thumbs.db
+
+# macOS system files (in case you share the project with others on macOS)
+.DS_Store
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Image and GIF files folder (assuming these images are already included in your project)
+image_gifs/
+
+# If you decide to add a build/production folder in the future
+/dist/
+/build/
+
+# IDE or editor settings (in case you or others are using other IDEs)
+.idea/
+
+# Exclude README.md (if it's just informational, but include it if you want to keep it tracked)
+# README.md
